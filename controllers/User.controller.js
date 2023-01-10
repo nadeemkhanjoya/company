@@ -8,7 +8,7 @@ export const Registration = async (req, res) => {
         if (IsMobileExist) {
             res.send({
                 status: false,
-                msg: "Phone Number already exist.",
+                msg: "Phone Number already exist..",
                 data: {}
             });
         } else if (IsEmailExist) {
